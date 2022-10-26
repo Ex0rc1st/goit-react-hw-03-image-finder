@@ -103,8 +103,7 @@ export class App extends Component {
   };
 
   render() {
-    const { showLoader, image, tags, items, query, showButton, error } =
-      this.state;
+    const { showLoader, image, tags, items, query, showButton } = this.state;
 
     return (
       <Container
